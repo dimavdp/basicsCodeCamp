@@ -25,6 +25,7 @@ int main()
     string phrase = "basicsCodeCamp\n";
     cout << phrase;
 
+    // if you found this comment it's useless
 
 
     return 0 ;
