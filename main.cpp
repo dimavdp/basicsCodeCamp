@@ -23,9 +23,18 @@ int main()
 //    bool isMale = true; //for true/false situations
 
     string phrase = "basicsCodeCamp\n";
+    phrase[0] = 'B';
     cout << phrase;
 
     // if you found this comment it's useless
+
+    cout << phrase.length() << endl;
+    cout << phrase[0] << endl;
+    cout << phrase.find("CodeCamp", 0) << endl;
+    cout << phrase.substr(8, 3) << endl;
+    string phrasesub;
+    phrasesub = phrase.substr(8, 3);
+    cout << phrasesub << endl;
 
 
     return 0 ;
